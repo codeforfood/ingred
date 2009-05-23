@@ -1,0 +1,166 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background:url(/inc/pics/ingred/bg.gif) repeat-x 0 0 #F7F7F7;
+	color:#171717;
+	font: normal 13px/24px  Arial, Helvetica, sans-serif;
+}
+
+div, h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+}
+div, form, label, input, span, p, a{
+	margin: 18px 0px 0px 0px; padding:0;
+}
+#top{
+	width: 683px;
+	margin: 0 auto;
+	/* this becomes the margin for the main content area */
+	height: 37px;
+}
+
+#top ul{
+	width: 400px;
+	margin: 0 auto;
+}
+
+#top ul li{
+	height: 37px; 
+	float: left;
+	background: url(/inc/pics/ingred/bg.gif) repeat-x 0 0 #292929; 
+	color: #C1C1C1;
+	font: bold 12px/37px Arial, Helvetica, sans-serif;
+	list-style:none;
+}
+
+#top ul li a{
+	padding: 0 18px;
+	height:37px;
+	float: left;
+	text-decoration: none;
+	display: block;
+	background: url(/inc/pics/ingred/bg.gif) repeat-x 0 0 #292929;
+	color: #C1C1C1;
+	font: bold 12px/37px Arial, Helvetica, sans-serif;
+}
+
+#top ul li a:hover{
+	background:url(/inc/pics/ingred/top_btn_h.gif) no-repeat center bottom;
+	color: #ddd;
+}
+
+#top ul li a.hover{
+	padding:0 18px;
+	height:37px; 
+	float:left; 
+	text-decoration:none; 
+	display:block;
+	background:url(/inc/pics/ingred/top_btn_h.gif) no-repeat center bottom; 
+	color:#C1C1C1;
+	font: bold 12px/37px Arial, Helvetica, sans-serif;
+}
+
+#content{
+	width:683px; 
+	margin:0 auto;
+	padding:0 0 60px 0;
+	background-color: #f7f7f7;
+	color:#999;
+}
+
+#content h1{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 50px;
+	letter-spacing: 2px;
+	line-height: 100px;
+	color: #88A2AA;
+	color: #000;
+}
+
+#content h2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #88A2AA;
+	font-size: 140%;
+	line-height: 48px;
+	letter-spacing: 1px;
+	color: #88A2AA;
+}
+
+#highlights{
+	height: 200px;
+	margin: 0 auto;
+}
+
+#highlights .highlight{
+	background:url(/inc/pics/ingred/highlight.gif) no-repeat 0 0 #fff; 
+	color:#999;
+	height: 200px;
+	width: 200px;
+	margin: 0px 0px 0px 13px;
+	float: left;
+}
+
+#highlights .highlight h3{
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin: 12px;
+	color: #000;
+}
+
+#content dt{
+	color: #333;
+	font-size: 110%;
+}
+
+#bottom{
+	margin: 0 auto;
+	background: url(/inc/pics/ingred/bg.gif) repeat-x 0 0 #222; 
+	width: 100%;
+	color: #ddd;
+	font: normal 10px/20px Arial, Helvetica, sans-serif;
+	
+
+}
+
+#bottom ul{
+	width: 400px;
+	margin: 0 auto;
+}
+
+#bottom ul li{
+	background-color: #333;
+	height: 37px; 
+	float: left;
+	background: url(/inc/pics/ingred/bg.gif) repeat-x 0 0 #292929; 
+	color: #C1C1C1;
+	font: bold 12px/37px Arial, Helvetica, sans-serif;
+	list-style:none;
+}
+
+#bottom ul li a{
+	padding: 0 18px;
+	height:37px;
+	float: left;
+	text-decoration: none;
+	display: block;
+	background: url(/inc/pics/ingred/bg.gif) repeat-x 0 0 #292929; 
+	color: #C1C1C1;
+	font: bold 12px/37px Arial, Helvetica, sans-serif;
+}
+
+#bottom ul li a:hover{
+	color: #ddd;
+	background:url(/inc/pics/ingred/btm_btn_h.gif) no-repeat center top; 
+}
+
+#bottom ul li a.hover{
+	padding:0 18px;
+	height:37px; 
+	float:left; 
+	text-decoration:none; 
+	display:block;
+	font:bold 12px/37px Arial, Helvetica, sans-serif;
+}

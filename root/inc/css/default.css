@@ -1,0 +1,17 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: monospace;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+	padding: 12px 0px 0px 12px;
+}
+
+#title{
+	font-family: georgia, serif;
+	padding-left: 6px;
+}
